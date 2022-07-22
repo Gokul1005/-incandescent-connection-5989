@@ -1,0 +1,369 @@
+* {
+  font-family: Poppins, Poppins-Hindi, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: rgb(254, 92, 117);
+}
+#container {
+  position: sticky;
+  top: 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+}
+#search {
+  padding: 0 0 0 10px;
+  margin-right: 180px;
+  margin-left: 235px;
+  border-radius: 50px;
+  color: grey;
+  border: 1px solid grey;
+}
+
+#titlebar {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+#navbar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background-color: white;
+}
+#navbar > div {
+  border-right: 1px solid rgb(254, 92, 117);
+  padding: 0 10px 0 10px;
+}
+#navbar > div:last-child {
+  border-right: none;
+}
+#imagebar {
+  width: 93%;
+  margin: auto;
+  /* border:1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#imagebar > div > img {
+  width: 100%;
+}
+#imagebar > div > h2 {
+  margin: 0;
+  padding: 0 10px 0 10px;
+  letter-spacing: 1px;
+  font-size: 25px;
+  line-height: 35px;
+}
+#followers {
+  width: 80%;
+  margin: auto;
+  /* border:1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 15px;
+}
+#followers > div {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 35px 15px 25px;
+}
+#followers > div > div:nth-child(1) {
+  color: white;
+}
+#followers > div:nth-child(1) {
+  background: rgb(56, 77, 196);
+  background: linear-gradient(
+    155deg,
+    rgba(56, 77, 196, 0.9472163865546218) 50%,
+    rgba(243, 247, 244, 1) 50%,
+    rgba(247, 248, 250, 1) 50%,
+    rgba(244, 245, 250, 1) 50%,
+    rgba(246, 243, 249, 1) 50%
+  );
+}
+#followers > div:nth-child(2) {
+  background: rgb(150, 20, 20);
+  background: linear-gradient(
+    155deg,
+    rgba(150, 20, 20, 0.9472163865546218) 50%,
+    rgba(247, 248, 250, 1) 50%,
+    rgba(243, 247, 244, 1) 50%,
+    rgba(249, 243, 244, 1) 50%,
+    rgba(244, 245, 250, 1) 50%
+  );
+}
+#followers > div:nth-child(3) {
+  background: rgb(241, 12, 217);
+  background: linear-gradient(
+    155deg,
+    rgba(241, 12, 217, 0.9472163865546218) 50%,
+    rgba(243, 247, 244, 1) 50%,
+    rgba(249, 243, 244, 1) 50%,
+    rgba(250, 247, 249, 1) 50%,
+    rgba(244, 245, 250, 1) 50%
+  );
+}
+#first > div:last-child {
+  color: rgb(56, 77, 196);
+}
+#second > div:last-child {
+  color: rgb(150, 20, 20);
+}
+#third > div:last-child {
+  color: rgb(241, 12, 217);
+}
+.white {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  /* border:1px solid black; */
+}
+.white #heading {
+  width: fit-content;
+  margin: auto;
+}
+.white #heading > h1 {
+  border-bottom: 1px solid rgb(254, 92, 117);
+}
+.white #description {
+  width: 100%;
+  /* border:1px solid black; */
+  display: flex;
+  gap: 25px;
+}
+.white #description > div:nth-child(1) {
+  width: 65%;
+  /* border:1px solid black; */
+}
+.white #description > div > img {
+  width: 100%;
+}
+.white #description > div:nth-child(2) {
+  width: 30%;
+  /* border:1px solid black; */
+  text-align: left;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+.white #description p {
+  line-height: 30px;
+  font-size: 14px;
+}
+.white #description p:last-child {
+  letter-spacing: 0px;
+}
+.white #description h6:last-child {
+  letter-spacing: 0px;
+  font-size: 13px;
+  color: rgb(254, 92, 117);
+}
+.white #grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 70px;
+}
+.white #grid > div {
+  /* border:1px solid black; */
+  text-align: left;
+  letter-spacing: 2px;
+}
+.white #grid > div > img {
+  width: 100%;
+}
+.white #grid > div > h1 {
+  font-size: 22px;
+}
+.white #grid > div > p {
+  color: rgb(254, 92, 117);
+  letter-spacing: 0px;
+  font-size: 15px;
+}
+.white #grid > div > h5 {
+  color: rgb(254, 92, 117);
+  letter-spacing: 0px;
+}
+.white #read {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.white #read > div {
+  width: 30px;
+  height: 20px;
+  border-bottom: 1px solid rgb(254, 92, 117);
+  border-left: 1px solid rgb(254, 92, 117);
+  margin-right: 48px;
+  padding: 0;
+}
+.white #read > p {
+  color: rgb(254, 92, 117);
+  margin: 0;
+  padding: 0;
+}
+
+/* red */
+.red {
+  margin-top: 10px;
+  padding-top: 30px;
+  text-align: center;
+  /* border:1px solid black; */
+  background-color: rgb(254, 92, 117);
+}
+.red #heading {
+  width: fit-content;
+  margin: auto;
+}
+.red #heading > h1 {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.red #description {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  /* border:1px solid black; */
+}
+.red #description > div {
+  height: auto;
+  /* border:1px solid black;   */
+}
+.red #description > div > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.red #description > div:nth-child(1) {
+  width: 65%;
+}
+.red #description > div:nth-child(2) {
+  width: 55%;
+  text-align: left;
+  margin: 15px 15px 15px -50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.red #description > div:nth-child(2) > div {
+  height: max-content;
+  width: 90%;
+  background-color: white;
+  padding: 25px 40px 15px 50px;
+  border-radius: 10px;
+}
+.red #description > div:nth-child(2) > div > p {
+  line-height: 30px;
+  font-size: 18px;
+}
+.red #description > div:nth-child(2) > div > h2 {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.red #description > div:nth-child(2) > div > h5 {
+  color: rgb(254, 92, 117);
+  font-size: 14px;
+}
+
+.red #grid {
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* border:1px solid black; */
+  gap: 25px;
+}
+.red #grid > div {
+  height: auto;
+  /* border:1px solid black;  */
+  display: flex;
+}
+.red #grid > div > div {
+  /* border:1px solid white; */
+  display: flex;
+  align-items: center;
+}
+
+.red #grid > div > div > img {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+}
+.red #grid > div > div:nth-child(1) {
+  width: 62%;
+  display: flex;
+  align-items: center;
+}
+.red #grid > div > div:nth-child(2) {
+  width: 60%;
+  text-align: left;
+  margin: 0 0 0 -95px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.red #grid > div > div:nth-child(2) > div {
+  height: max-content !important;
+  width: 90%;
+  background-color: white;
+  padding: 24px 13px;
+  border-radius: 10px;
+}
+.red #grid > div > div:nth-child(2) > div > h3 {
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.red #grid > div > div:nth-child(2) > div > h5 {
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  font-size: 13px;
+  color: rgb(254, 92, 117);
+}
+.red #read {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 155px;
+  padding-bottom: 45px;
+  margin-top: 100px;
+  margin-bottom: 45px;
+}
+.red #read > div {
+  width: 30px;
+  height: 20px;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  margin-right: 48px;
+  padding: 0;
+}
+.red #read > p {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
